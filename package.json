@@ -1,0 +1,24 @@
+{
+  "name": "simple-api-server",
+  "version": "1.0.0",
+  "description": "a simple api server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "MYSQL_TABLE=imma_default_table MYSQL_HOST=192.168.1.104 MYSQL_USERNAME=imma_default_user MYSQL_PASSWORD=imma_default_password MYSQL_DATABASE=imma_default_database PORT=8080 node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/misterpah/simple-api-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/misterpah/simple-api-server/issues"
+  },
+  "homepage": "https://github.com/misterpah/simple-api-server#readme",
+  "dependencies": {
+    "mysql": "github:mysqljs/mysql",
+    "restify": "^8.6.0"
+  }
+}
