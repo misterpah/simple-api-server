@@ -5,6 +5,10 @@ a simple api server
 
 ![architecture](https://nomnoml.com/image.svg?source=%23.box%3A%20fill%3D%238f8%20dashed%0A%5B%3Cbox%3E%20msyql-server%5D-%5Bsimple-api-server%5D%0A)
 
+# comparison
+without console.log = 8581 microsecond
+with console.log = 9507 microsecond
+
 
 # api call
 ```
