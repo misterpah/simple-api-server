@@ -8,3 +8,4 @@ create table imma_default_table(
 );
 CREATE USER 'imma_default_user' IDENTIFIED BY 'imma_default_password';
 GRANT ALL PRIVILEGES ON imma_default_database.* TO 'imma_default_user';
+flush privileges;

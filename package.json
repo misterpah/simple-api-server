@@ -4,8 +4,7 @@
   "description": "a simple api server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "MYSQL_TABLE=imma_default_table MYSQL_HOST=192.168.1.104 MYSQL_USERNAME=imma_default_user MYSQL_PASSWORD=imma_default_password MYSQL_DATABASE=imma_default_database PORT=8080 node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
